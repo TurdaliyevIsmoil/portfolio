@@ -9,6 +9,7 @@ function HomePage() {
       <Header />
       <HomeHero />
       <Portfolio />
+      <p style={{textAlign: 'center'}}>Soon</p>
     </div>
   );
 }

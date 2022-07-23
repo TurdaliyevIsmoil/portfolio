@@ -48,7 +48,10 @@ const Container = styled.div`
     width: 70%;
     position: relative;
     z-index: 2;
-    height: 90%;
+    max-height: 90%;
+    @media (max-width:767px) {
+      width: 80%;
+    }
     img {
       width: 100%;
     }

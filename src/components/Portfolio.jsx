@@ -82,6 +82,9 @@ const Container = styled.section`
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
+    @media (max-width:767px) {
+      grid-template-columns: 1fr ;
+    }
     .image > img {
       width: 100%;
       border: 1px solid #fdfdfd;
